@@ -1,0 +1,55 @@
+body,
+html {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+.wrapper {
+  .present_block {
+    width: 100vw;
+    height: 50vh;
+    background: url('./preview.png') no-repeat center;
+    background-size: cover;
+    color: #fff;
+
+    .present {
+      height: 100%;
+      width: 30%;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      h4 {
+        font-size: 36px;
+        font-weight: bold;
+        letter-spacing: 6px;
+        text-align: center;
+      }
+
+      &_line {
+        margin: 20px 0;
+        border-bottom: 4px solid #fff;
+        width: 36%;
+        border-radius: 20px;
+      }
+
+      &_text {
+        text-align: center;
+        line-height: 20px;
+        margin-bottom: 20px;
+        font-weight: 400;
+      }
+
+      &_btn {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background: url('./123.svg');
+      }
+    }
+  }
+}
